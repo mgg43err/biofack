@@ -46,6 +46,7 @@ thead {
 }
 
 body {
+  min-width: 1200px;
   padding: 0 15px;
   background-color: #e1ffff21;
 }
