@@ -1,4 +1,8 @@
 /* CSS Reset Styles of html */
+* {
+  font-size: 16px;
+}
+
 html,
 body,
 div,
@@ -41,10 +45,14 @@ thead {
   font-family: "Roboto";
 }
 
+body {
+  padding: 0 15px;
+  background-color: #efffff7c;
+}
+
 div.content {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 :focus {
